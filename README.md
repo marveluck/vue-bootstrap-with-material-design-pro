@@ -7,22 +7,22 @@
 <h1 align="center">Vue Bootstrap with Material Design PRO</h1>
 
 <p align="center">
-  <a href="https://mdbootstrap.com/products/jquery-ui-kit/" target="_blank">
-    <img width="600" src="https://mdbootstrap.com/img/Marketing/products/vue/mdb-pro.jpg" alt="logo">
-  </a>
+An impressive collection of ready to use, stunning Material Design components.
+</p>
+<p align="center">
+Save huge amounts of time on website/application creation using our predefined sections and templates.
+</p>
+<p align="center">
+With the Premium Support all your issues will be treated as a priority and our team will make their fullest efforts to help you with any questions related to MDB.
+    </p>
+<p align="center">
+An private GitLab account dedicated to MDB Pro users.
 </p>
 
 <p align="center">
-  ✔️<b>4500+</b> Premium Components - An impressive collection of ready to use, stunning Material Design components.
-</p>
-<p align="center">
-  ✔️<b>50+ Pro sections & ready to use templates plugins.</b> - Save huge amounts of time on website/application creation using our predefined sections and templates.
-</p>
-<p align="center">
-  ✔️<b>Premium support</b> - With the Premium Support all your issues will be treated as a priority and our team will make their fullest efforts to help you with any questions related to MDB.
-    </p>
-<p align="center">
-  ✔️<b>Access to MDB Pro repository</b> - An private GitLab account dedicated to MDB Pro users.
+  <a href="https://mdbootstrap.com/products/vue-ui-kit/" target="_blank">
+    <img width="600" src="https://mdbootstrap.com/img/Marketing/products/vue/mdb-pro.jpg" alt="logo">
+  </a>
 </p>
 
 
@@ -41,10 +41,23 @@ ________
 |⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 22 Pro Plugins⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀| ❌ | ✔️ | 
 |⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 2 Basic Plugins⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀| ✔️| ✔️ |
 |⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ Premium Support⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀| ❌ | ✔️ | 
-|⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ GitLab account and MDB Pro repository access⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀| ❌ | ✔️ | 
+|⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀GitLab account and MDB Pro repository access⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀| ❌ | ✔️ | 
 
 
 ________
+
+
+# Table of Content
+
+* [Useful Links](#useful-links)
+* [PRO Technologies](#pro-technologies)
+* [Quick Start](#quick-start)
+* [Tutorials](#tutorials)
+* [Documentation](#documentation)
+* [Supported Browsers](#supported-browsers)
+* [Social Media](#social-media)
+
+# Useful Links
 
 * 5 min Quick Start - https://www.youtube.com/watch?v=s6ox3b9Xedc
 * ChangeLog - https://mdbootstrap.com/docs/vue/changelog/
@@ -52,16 +65,162 @@ ________
 * Product page - https://mdbootstrap.com/products/vue-ui-kit/
 * Support - https://mdbootstrap.com/support/
 
-# PRO Versions
+# PRO Technologies
 
-[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/angular.png"/>](https://mdbootstrap.com/products/angular-ui-kit/)[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/jquery.png"/>](https://mdbootstrap.com/products/jquery-ui-kit/)[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/react.png"/>](https://mdbootstrap.com/products/react-ui-kit/)
+[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/angular.png"/>](https://mdbootstrap.com/products/angular-ui-kit/)⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/jquery.png"/>](https://mdbootstrap.com/products/jquery-ui-kit/)⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[<img src="https://mdbootstrap.com/img/Marketing/general/logo/small/react.png"/>](https://mdbootstrap.com/products/react-ui-kit/)
 
 
-# Tutorials
+# Quick Start
+ 
+Before you use MDB Vue make sure you have installed Create React App package. This package contains development environment that will speed up the development process. Node 6 or higher is required.
+
+To install Create Vue App, in your command line type:
+
+```
+npm install -g @vue/cli
+```
+
+## New project:
+
+**Step 1**: If you haven't downloaded MDB Admin Dashboard Vue package yet, go to <a href="https://mdbootstrap.com/docs/vue/getting-started/download/">Getting Started</a> page and download it now.
+
+**Step 2**: Unzip downloaded package and open Your unpacked directory.
+
+**Step 3 for PRO version**: If You want to install dependency from our GitLab repository, please open package.json file and copy the link to our repo from the commented line ("//": "git+https://oauth2:..."). Then replace the direct path to mdbvue.tgz in dependencies with the copied link. Finally paste Your GitLab Access Token instead REPLACE_WITH_YOUR_TOKEN and run installation as exlained above.
+
+```
+$ npm install
+
+$ yarn
+```
+
+**Step 4**: Now after you've downloaded everything it's time to write the second command which let us serve our app on localhost using:
+
+```
+$ npm start
+
+$ yarn start
+```
+
+**Step 5**: When you check what is served at Your port 8080 you should see app default screen.
+
+<p align="center">
+  <a href="https://mdbootstrap.com/docs/vue/getting-started/quick-start/">
+    <img width="400" src="https://mdbootstrap.com/img/Vue/final.png">
+  </a>
+</p>
+
+**Step 6**:  Explore our <a href="https://mdbootstrap.com/vue">documentation</a> (menu on the left). Choose components you like, copy it to your project and compose your website. And yes, it's that simple!
+
+**Step 7**: You can also launch our Demonstration Page. The files with the code are placed in the demo directory.
+
+```
+$ npm run demo
+
+$ yarn demo
+```
+
+**Step 8**: If You want to completely remove our demo from Your App, easily type:
+
+```
+$ npm run remove-demo
+
+$ yarn remove-demo
+```
+
+## Existing project
+
+**Step 1**:  Create a new Vue project using the official CLI:
+
+`vue create my-project`
+
+**Step 2**: cd my-project
+
+**Step 3**: GitLab installation
+
+1. Visit https://git.mdbootstrap.com and log in, if you are PRO user and do not have an account yet, please request one contacting us: contact@mdbootstrap.com
+2. From top right corner click at your avatar and choose "<a href="https://git.mdbootstrap.com/profile/personal_access_tokens">Setting → Access Tokens</a>"
+3. Provide a Name for your token and choose "api" from scopes. Then click "Create personal access token"
+
+<p align="center">
+  <a href="https://mdbootstrap.com/docs/vue/getting-started/quick-start/">
+    <img width="400" src="https://mdbootstrap.com/img/Vue/add_token.png">
+  </a>
+</p>
+
+4. Once your token will be generated make sure to copy it and store in safe place. You won't be able to access it again. **In case of lose, you will have to generate new token again**.
+
+<p align="center">
+  <a href="https://mdbootstrap.com/docs/vue/getting-started/quick-start/">
+    <img width="400" src="https://mdbootstrap.com/img/Vue/token.png">
+  </a>
+</p>
+
+5. Navigate to given repository, switch GIT to HTTP and copy it's URL i.e.: https://git.mdbootstrap.com/mdb/vue/vu-pro.git
+
+<p align="center">
+  <a href="https://mdbootstrap.com/docs/vue/getting-started/quick-start/">
+    <img width="400" src="https://mdbootstrap.com/img/Vue/repo.png">
+  </a>
+</p>
+
+6. Adjust the following link as per below
+
+`"git+https://oauth2: + access_token + @ + repo address" `
+
+i.e.
+
+git+https://oauth2:jFzMYzqSBUmGm3Z1ZA9s@git.mdbootstrap.com/mdb/vue/vu-pro.git
+
+7. Within existing vue project run:
+
+`npm install git+https://oauth2:jFzMYzqSBUmGm3Z1ZA9s@git.mdbootstrap.com/mdb/vue/vu-pro.git --save` 
+
+// OR
+
+`yarn add git+https://oauth2:jFzMYzqSBUmGm3Z1ZA9s@git.mdbootstrap.com/mdb/vue/vu-pro.git`
+if you don't have existing npm project you should create it first (`npm init`)
+
+alternatively, you can update your dependencies in package.json like below:
+
+```
+"dependencies": {
+  "mdbvue": "git+https://oauth2:jFzMYzqSBUmGm3Z1ZA9s@git.mdbootstrap.com/mdb/vue/vu-pro.git"
+}
+```
+Then run `npm` or `npm install` to install the dependencies
+
+**Step 5**: Import style files into Your src/main.js before the App.vue file import:
+```
+import 'bootstrap-css-only/css/bootstrap.min.css'; 
+import 'mdbvue/build/css/mdb.css';
+```
+so the top of the file similar to this:
+```
+import Vue from 'vue'; 
+import 'bootstrap-css-only/css/bootstrap.min.css'; 
+import 'mdbvue/build/css/mdb.css';
+import App from './App.vue'
+```
+**Step 6**:  Run your app
+
+`npm start`
+
+// OR
+
+`yarn serve`
+
+ 
+ # Tutorials
 
  - [Written Tutorial](https://mdbootstrap.com/education/vue/)
 
  - [Video Tutorial](https://www.youtube.com/watch?v=s6ox3b9Xedc)
+ 
+ 
+# Documentation
+
+ - [Huge, detailed documentation available online](https://mdbootstrap.com/docs/vue/]
 
 
 # Supported browsers
@@ -89,17 +248,15 @@ Similarly, the latest versions of most desktop browsers are supported.
 |⠀Mac⠀|⠀Supported⠀|⠀Supported⠀|⠀N/A⠀|⠀N/⠀|⠀Supported⠀|⠀Supported⠀|
 |Windows|⠀Supported⠀|⠀Supported⠀|⠀N/A⠀|⠀Supported|⠀Supported⠀|⠀Not supported⠀|
 
-________
 
-# Useful Links
+### Support MDB developers
 
-- [Getting Started](https://mdbootstrap.com/docs/vue/getting-started/download/)
+- Star our GitHub repo
+- Create pull requests, submit bugs, suggest new features or documentation updates
+- Follow us on [Twitter](https://twitter.com/mdbootstrap)
+- Like our page on [Facebook](https://www.facebook.com/mdbootstrap)
 
-- [5 min quick start viedo](https://www.youtube.com/watch?v=ozXDtSi5ByM)
-
-- [Freebies](https://mdbootstrap.com/freebies/)
-
-- [Premium Templates](https://mdbootstrap.com/templates/)
+A big ❤️ **thank you to all our users** ❤️ who are working with us to improve the software. We wouldn't be where we are without you. 
 
 ________
 
