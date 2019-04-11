@@ -6,6 +6,7 @@
 
 <h1 align="center">Vue Bootstrap with Material Design PRO</h1>
 
+
 <p align="center">
 An impressive collection of ready to use, stunning Material Design components.
 </p>
