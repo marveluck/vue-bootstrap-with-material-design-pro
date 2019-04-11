@@ -7,12 +7,6 @@
 <h1 align="center">Vue Bootstrap with Material Design PRO</h1>
 
 <p align="center">
-  <a href="https://mdbootstrap.com/products/vue-ui-kit/" target="_blank">
-    <img width="600" src="https://mdbootstrap.com/img/Marketing/products/vue/mdb-pro.jpg" alt="logo">
-  </a>
-</p>
-
-<p align="center">
 An impressive collection of ready to use, stunning Material Design components.
 </p>
 <p align="center">
@@ -23,6 +17,12 @@ With the Premium Support all your issues will be treated as a priority and our t
     </p>
 <p align="center">
 An private GitLab account dedicated to MDB Pro users.
+</p>
+
+<p align="center">
+  <a href="https://mdbootstrap.com/products/vue-ui-kit/" target="_blank">
+    <img width="600" src="https://mdbootstrap.com/img/Marketing/products/vue/mdb-pro.jpg" alt="logo">
+  </a>
 </p>
 
 
