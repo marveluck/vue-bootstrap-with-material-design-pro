@@ -10,7 +10,7 @@
 An impressive collection of ready to use, stunning Material Design components.
 </p>
 <p align="center">
-Pro sections & ready to use templates plugins.</b> - Save huge amounts of time on website/application creation using our predefined sections and templates.
+Save huge amounts of time on website/application creation using our predefined sections and templates.
 </p>
 <p align="center">
 With the Premium Support all your issues will be treated as a priority and our team will make their fullest efforts to help you with any questions related to MDB.
